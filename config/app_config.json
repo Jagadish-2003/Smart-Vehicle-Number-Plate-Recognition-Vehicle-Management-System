@@ -1,0 +1,30 @@
+{
+  "model": {
+    "weights_path": "models/weights/best.pt",
+    "confidence_threshold": 0.5,
+    "iou_threshold": 0.45
+  },
+  "ocr": {
+    "languages": ["en"],
+    "gpu": false,
+    "min_confidence": 0.4
+  },
+  "validation": {
+    "min_plate_length": 8,
+    "max_plate_length": 11
+  },
+  "video": {
+    "frame_skip": 3,
+    "output_fps": 20
+  },
+  "cache": {
+    "duplicate_window_seconds": 30
+  },
+  "paths": {
+    "database": "database/anpr.db",
+    "annotated_images": "outputs/annotated_images",
+    "cropped_plates": "outputs/cropped_plates",
+    "videos": "outputs/videos",
+    "logs": "logs/app.log"
+  }
+}

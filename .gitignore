@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.db
+outputs/annotated_images/*
+!outputs/annotated_images/.gitkeep
+outputs/cropped_plates/*
+!outputs/cropped_plates/.gitkeep
+outputs/videos/*
+!outputs/videos/.gitkeep
+logs/*.log
+.streamlit/secrets.toml
+.env
+.DS_Store
